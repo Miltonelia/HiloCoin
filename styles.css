@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Negro puro como fondo del logo */
+    color: #ffffff; /* Blanco para texto principal, contraste alto */
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 200px; /* Ajusta el tamaño */
+    margin: 20px auto;
+    display: block;
+    background-color: #000000; /* Fondo negro para integrar */
+}
+
+h1, h2 {
+    color: #90ee90; /* Verde claro del hilo en el emoji 🧵 */
+}
+
+button, .buy-button, .social-btn {
+    background-color: #90ee90; /* Verde claro base */
+    color: #000000; /* Negro para texto en botones */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover, .buy-button:hover, .social-btn:hover {
+    background-color: #39ff14; /* Verde neón inventado para hover (neón verde vibrante, combinando verde claro con amarillo para glow) */
+    box-shadow: 0 0 10px #39ff14; /* Efecto neón glow */
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.x-btn { 
+    background-color: #1da1f2; /* Azul X, pero con borde neón verde */
+    color: #ffffff; 
+    border: 1px solid #39ff14; /* Toque neón */
+}
+
+.telegram-btn { 
+    background-color: #0088cc; 
+    color: #ffffff; 
+    border: 1px solid #39ff14; 
+}
+
+.discord-btn { 
+    background-color: #5865f2; 
+    color: #ffffff; 
+    border: 1px solid #39ff14; 
+}
+
+/* Color neón inventado: Un "Neón Hilo" - Mezcla de negro (base), verde claro (principal), blanco (contraste), café (toque madera del emoji), amarillo (brillo neón) */
+/* Uso: Verde neón #39ff14 como acento principal para elementos interactivos */
+a {
+    color: #ffd700; /* Amarillo oro para links, inspirado en amarillo */
+}
+
+footer {
+    color: #a52a2a; /* Café sutil para footer, como el spool del emoji */
+}
+
+@media (max-width: 600px) {
+    .social-buttons { flex-direction: column; }
+}
